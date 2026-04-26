@@ -83,7 +83,6 @@ product-dashboard/
 ```
 
 ## 📸 Screenshots
-[Add your required screenshots here]
 ![Dashboard Screenshot](./public/screenshot.png)
 
 Developed by Oghenetega Sukuru for the Frontend Technical Assessment.
