@@ -25,7 +25,7 @@ A high-performance, responsive product management interface built for complex fu
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/product-dashboard.git](https://github.com/yourusername/product-dashboard.git)
+   git clone [https://github.com/Oghenetega16/product-dashboard.git]
 ````
 
 2. **Install dependencies:**
