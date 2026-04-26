@@ -4,7 +4,7 @@
 A high-performance, responsive product management interface built for complex full-stack architectures.
 
 ## 🚀 Live Demo
-[Insert Vercel/Netlify Link Here]
+[https://product-dashboard-omega-ten.vercel.app/]
 
 ## 🛠️ Core Stack
 * **Framework:** Next.js (App Router)
