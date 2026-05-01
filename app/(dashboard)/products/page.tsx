@@ -1,12 +1,12 @@
 'use client';
 
-import Modal from './Modal';
-import ProductForm from './ProductForm';
-import Pagination from './Pagination'; 
-import TopActionBar from './TopActionBar';         
-import FilterBar from './FilterBar';               
-import ProductDataTable from './ProductDataTable'; 
-import ProductDetailsDrawer from './ProductDetailsDrawer';
+import Modal from '@/components/Modal';
+import ProductForm from '@/components/ProductForm';
+import Pagination from '@/components/Pagination'; 
+import TopActionBar from '@/components/TopActionBar';         
+import FilterBar from '@/components/FilterBar';               
+import ProductDataTable from '@/components/ProductDataTable'; 
+import ProductDetailsDrawer from '@/components/ProductDetailsDrawer';
 import { useProductTableLogic } from '@/hooks/useProductTableLogic'; 
 
 export default function ProductTable() {

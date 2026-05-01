@@ -1,9 +1,13 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Kumbh_Sans } from 'next/font/google';
 import './globals.css';
 import Providers from './providers'; 
 
-const inter = Inter({ subsets: ['latin'] });
+// Kumbh Sans is a variable font, so we don't need the weight array!
+const kumbhSans = Kumbh_Sans({ 
+    subsets: ['latin'],
+    display: 'swap' 
+});
 
 export const metadata: Metadata = {
     title: 'Orbit Product Dashboard',
@@ -17,9 +21,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body suppressHydrationWarning className={inter.className}>
+            <body suppressHydrationWarning className={kumbhSans.className}>
                 <Providers>{children}</Providers>
             </body>
         </html>
     );
-    }
+}
